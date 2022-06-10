@@ -3,17 +3,17 @@ import { useEffect, useState } from "react";
 
 const useApi = () => {
   
-  const [users, setUsers] = useState('');
+  const [location, setLocation] = useState('');
 
   useEffect(() => {
-    const URL = 'https://rickandmortyapi.com/api/location';
+    const URL = 'https://rickandmortyapi.com/api/location/8';
     axios.get(URL)
-      .then(resp => setUsers(resp.data))
+      .then(resp => setLocation(resp.data))
       .catch(err => console.log(err))
   
   }, [])
   
-  return {users}
+  return {location}
 
 }
 
