@@ -11,6 +11,14 @@ const RickAndMortyApp = () => {
         <Location 
             location={location}
         />
+        <div className="card-container">
+            { location?.residents?.map(resident => (
+              <CardUser 
+                resident={resident} 
+                key={resident}
+              />
+              ))}
+        </div>
       </div>
     )
 }
