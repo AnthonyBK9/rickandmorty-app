@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Location = ({location}) => {
-  console.log(location);
   return (
     <header>
+        
         <div className="header">
             <h1>{location?.name}</h1>
         </div>
