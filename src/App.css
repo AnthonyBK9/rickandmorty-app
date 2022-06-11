@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
 
-.App {
-  text-align: center;
+header {
+  background: #0a2649;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .header {
   font-family: 'Acme', sans-serif;
+  color:rgb(10, 141, 21);
 }
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  
+}
+
+.header-content span {
+  font-weight: bold;
+  color: #07f31a;
+}
+
+.header-content {
+  color: #fff;
+}
+
+.header-img {
+  width: 100%;
+  max-height: 500px;
+}
+
+
