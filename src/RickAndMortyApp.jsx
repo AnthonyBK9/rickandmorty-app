@@ -7,7 +7,6 @@ import img from './assets/js/img'
 
 const RickAndMortyApp = () => {
     const {location} = useApi();
-    console.log(img)
     return (
       <>
         <img src={img[1].img} alt={img[1].title} className="header-img"/>

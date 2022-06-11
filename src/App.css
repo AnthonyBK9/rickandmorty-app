@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 
 header {
-  background: #0a2649;
+  background: #062226;
   width: 60%;
   margin: 0 auto;
   border-radius: 10px;
@@ -9,7 +11,11 @@ header {
 
 .header {
   font-family: 'Acme', sans-serif;
-  color:rgb(10, 141, 21);
+  color:#0a8d15;
+}
+
+.header h1 {
+  text-align: center;
 }
 
 .header-content {
@@ -21,11 +27,12 @@ header {
 
 .header-content span {
   font-weight: bold;
-  color: #07f31a;
+  color: #0a8d15;
 }
 
 .header-content {
   color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .header-img {
@@ -33,4 +40,55 @@ header {
   max-height: 500px;
 }
 
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
 
+.card {
+  background: #062226;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card_header img{
+  width: 100%;
+}
+
+.card_name {
+  margin-bottom: -20px;
+  margin-top: -20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Acme', sans-serif;
+}
+
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px; 
+  border-radius: 50%;
+}
+
+.card_content {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.card_content p{
+  margin: 0;
+  color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card_content span{
+  font-weight: bold;
+  color: rgb(122, 122, 122);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}

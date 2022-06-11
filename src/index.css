@@ -5,8 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(255, 255, 255);
-  /* background-image: url('../src/assets/img/fondo-rick.png');
+  background: rgb(243, 243, 243);
+  background: #0c4149;
+  /* background-image: url('../src/assets/img/fondo-ram.jpg');
   background-size: cover; */
 }
 
