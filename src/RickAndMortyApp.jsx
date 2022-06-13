@@ -4,6 +4,7 @@ import useApi from './hooks/useApi'
 import CardUser from './components/CardUser';
 import Location from './components/Location';
 import img from './assets/js/img'
+import InputSearch from './components/InputSearch';
 
 const RickAndMortyApp = () => {
     const {location} = useApi();
@@ -14,6 +15,7 @@ const RickAndMortyApp = () => {
           <Location 
               location={location}
           />
+          <InputSearch />
           <div className="card-container">
               { location?.residents?.map(resident => (
                 <CardUser 
