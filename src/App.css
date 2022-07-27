@@ -1,132 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
-
-header {
-  background: #062226;
-  width: 60%;
-  margin: 30px auto;
-  border-radius: 10px;
-
-}
-
-h2 {
-  text-align: center;
-  color:#0a8d15;
-  margin: 0;
-}
-
-input {
-  background: #ffffff;
-  box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
-  border: 0;
-  width: 40%;
-  height: 10px;
-  font-size: 1rem;
-  padding: 10px;
-  outline: 0;
-  margin: 0 auto;
-  color: rgb(10, 110, 32);
-  font-family: 'Acme', sans-serif;
-  border-radius: 10px;
-}
-
-input::placeholder {
-  color: rgba(8, 94, 19, 0.74);
-}
-
-form {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-}
-
-.header {
-  font-family: 'Acme', sans-serif;
-  color:#0a8d15;
-}
-
-.header h1 {
-  text-align: center;
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-around;
-  font-size: 20px;
-  
-}
-
-.header-content span {
-  font-weight: bold;
-  color: #0a8d15;
-}
-
-.header-content {
-  color: #fff;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.header-img {
-  width: 100%;
-  max-height: 500px;
-}
-
-.header-title {
-  text-align: center;
-  color: #0a8d15;
-  padding-bottom: 1px;
-}
+/* .container {
+    margin-top: 450px;
+} */
 
 .card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.card {
-  background: #062226;
-  width: 25%;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.card_header img{
-  width: 100%;
-}
-
-.card_name {
-  margin-bottom: -20px;
-  margin-top: -20px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Acme', sans-serif;
-}
-
-.circle {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-left: 5px; 
-  border-radius: 50%;
-}
-
-.card_content {
-  margin-left: 5px;
-  font-size: 18px;
-}
-
-.card_content p{
-  margin: 0;
-  color: #fff;
-  font-family: 'Kdam Thmor Pro', sans-serif;
-}
-
-.card_content span{
-  font-weight: bold;
-  color: rgb(122, 122, 122);
-  font-family: 'Kdam Thmor Pro', sans-serif;
+@media screen and (min-width: 375px) {
+    .card-container {
+        margin: 0 5px;
+    }
 }

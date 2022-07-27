@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Play:wght@400;700&family=Russo+One&family=Teko:wght@300;400;700&display=swap');
+.card-resident {
+    background-color: #062226;
+    border: 1px solid #05b0bd;
+    width: 180px;
+    height: max-content;
+    border-radius: 3px;
+}
+.card__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    /* gap: 5px; */
+    padding: 5px 0px;
+}
+.card__header img {
+    width: 75%;
+    border-radius: 10px;
+}
+.card__title {
+    color: #e5d300;
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+.card__body {
+    font-size: 12px;
+}
+.card__container__status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #06535f;
+    width: 120px;
+    height: 15px;
+    border-radius: 3px;
+    color: #d6fffb;
+    font-family: 'Play', sans-serif;
+    font-size: 13px;
+    padding: 3PX 0 3PX 5PX;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.card__container__status span {
+    font-weight: 700;
+}
+.card__status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 2px;
+}
+.bg-Dead {
+    background-color: #c52727;
+}
+.bg-Alive {	
+    background-color: #1c920d;
+}
+.bg-unknown {	
+    background-color: #979797;
+}
+.card__container__character {
+    background-color: #294258;
+    padding: 2px 5px;
+    margin: 5px;
+    font-size: 11px;
+    font-family: 'Play', sans-serif;
+    border-radius: 3px;
+}
+.card__info {
+    margin: 0;
+    color: #0bdfee;
+}
+.card__info span {
+    font-weight: 700;
+    color: #0bee46;
+}
+@media screen and (min-width: 1024px) {
+    .card-resident {
+        width: 280px;
+    }
+    .card__title {
+        font-size: 20px;
+    }
+    .card__container__character{
+        font-size: 15px;
+    }
+    .card__container__status {
+        font-size: 18px;
+        width: 180px;
+        height: 25px;
+    }
+}
